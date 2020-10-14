@@ -12,6 +12,17 @@ public class Circle extends Shape implements ShapePI {
         scanner=new Scanner(System.in);
         prompt(scanner);
     }
+
+    @Override
+    public double getWidth() {
+        return width;
+    }
+
+    @Override
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
     @Override
     public void prompt(Scanner scanner) {
         System.out.println("Please Input the Radius of the circle:");

@@ -5,11 +5,32 @@ import com.tonyngeno.Interface.ShapePI;
 import java.util.Scanner;
 
 public class Ellipse extends Shape implements ShapePI {
+    private double height, width;
     private Scanner scanner;
 
     public Ellipse() {
         scanner = new Scanner(System.in);
         prompt(scanner);
+    }
+
+    @Override
+    public double getHeight() {
+        return height;
+    }
+
+    @Override
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    @Override
+    public double getWidth() {
+        return width;
+    }
+
+    @Override
+    public void setWidth(double width) {
+        this.width = width;
     }
 
     @Override

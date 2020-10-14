@@ -56,7 +56,7 @@ public class Main {
                     shapes.add(tetrahedron.toString());
                     break;
                 default:
-                    System.out.println("invalid Option");
+                    System.out.println("Invalid Choice");
                     break;
 
             }
@@ -68,7 +68,7 @@ public class Main {
         Shape square=new Square();
         shapes.add(square.toString());
 
-        shapes.forEach((s) -> System.out.println(s));
+        shapes.forEach((shape) -> System.out.println(shape));
 
 
 
