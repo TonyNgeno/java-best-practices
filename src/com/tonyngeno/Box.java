@@ -30,7 +30,7 @@ public class Box extends Shape implements ShapePI {
 
     @Override
     public String toString() {
-        return" Area =" + calculateArea();
+        return "Area =" + calculateArea();
 
     }
 }
