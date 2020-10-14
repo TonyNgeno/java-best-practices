@@ -5,7 +5,6 @@ import com.tonyngeno.Interface.ShapePI;
 import java.util.Scanner;
 
 public class Square extends Shape implements ShapePI {
-    private double height;
     private Scanner scanner;
 
     public Square() {
@@ -13,15 +12,7 @@ public class Square extends Shape implements ShapePI {
         prompt(scanner);
     }
 
-    @Override
-    public double getHeight() {
-        return height;
-    }
 
-    @Override
-    public void setHeight(double height) {
-        this.height = height;
-    }
 
     @Override
     public void prompt(Scanner scanner) {

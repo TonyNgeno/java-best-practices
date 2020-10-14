@@ -7,15 +7,6 @@ import java.util.Scanner;
 public class Box extends Shape implements ShapePI {
 
     private Scanner scanner;
-    private double height;
-
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
 
     public Box() {
         scanner = new Scanner(System.in);

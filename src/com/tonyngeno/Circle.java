@@ -5,22 +5,12 @@ import com.tonyngeno.Interface.ShapePI;
 import java.util.Scanner;
 
 public class Circle extends Shape implements ShapePI {
-    private double width;
+
     private Scanner scanner;
 
     public Circle() {
         scanner=new Scanner(System.in);
         prompt(scanner);
-    }
-
-    @Override
-    public double getWidth() {
-        return width;
-    }
-
-    @Override
-    public void setWidth(double width) {
-        this.width = width;
     }
 
     @Override

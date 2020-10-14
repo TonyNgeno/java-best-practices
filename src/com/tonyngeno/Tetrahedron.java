@@ -7,15 +7,6 @@ import java.util.Scanner;
 public class Tetrahedron extends Shape implements ShapePI {
 
     private Scanner scanner;
-    private double height;
-
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
 
     public Tetrahedron() {
         scanner = new Scanner(System.in);
@@ -24,7 +15,8 @@ public class Tetrahedron extends Shape implements ShapePI {
 
     @Override
     public double calculateArea() {
-        return (2*(getHeight()*getHeight()+getWidth()*getWidth()+getHeight()*getHeight()));
+        return (Math.cbrt(Math.pow(getHeight(),2)));
+
     }
 
 
@@ -32,17 +24,11 @@ public class Tetrahedron extends Shape implements ShapePI {
     public void prompt(Scanner scanner){
         System.out.println("enter the Length  of the Tetrahedron");
         setHeight(scanner.nextInt());
-        System.out.println("enter the Width  of the Tetrahedron");
-        setWidth(scanner.nextInt());
-        System.out.println("enter the Height  of the Tetrahedron");
-        setHeight(scanner.nextInt());
     }
 
     @Override
     public String toString() {
-        return "Shape type =" + "Box" +
-                " | Length =" + getHeight() +
-                " | Width =" + getHeight() +
+        return "Shape type =" + "Tetrahedon" +
                 " | Height =" + getHeight() +
                 " | Area =" + calculateArea() ;
     }

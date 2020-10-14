@@ -5,7 +5,7 @@ import com.tonyngeno.Interface.ShapePI;
 import java.util.Scanner;
 
 public class Rectangle extends Shape implements ShapePI {
-    private double height, width;
+
     private Scanner scanner;
 
     public Rectangle() {
@@ -13,25 +13,6 @@ public class Rectangle extends Shape implements ShapePI {
         prompt(scanner);
     }
 
-    @Override
-    public double getHeight() {
-        return height;
-    }
-
-    @Override
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    @Override
-    public double getWidth() {
-        return width;
-    }
-
-    @Override
-    public void setWidth(double width) {
-        this.width = width;
-    }
 
     @Override
     public void prompt(Scanner scanner) {
