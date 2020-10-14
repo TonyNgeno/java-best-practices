@@ -70,8 +70,5 @@ public class Main {
 
         shapes.forEach((shape) -> System.out.println(shape));
 
-
-
-    }
     }
 }
