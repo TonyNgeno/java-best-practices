@@ -73,12 +73,6 @@ public class Main {
             }
         }
 
-        Shape rect=new Rectangle();
-        shapes.add(rect.toString());
-
-        Shape square=new Square();
-        shapes.add(square.toString());
-
         shapes.forEach((shape) -> System.out.println(shape));
 
     }
