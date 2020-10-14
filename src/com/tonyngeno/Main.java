@@ -15,7 +15,16 @@ public class Main {
 
         System.out.println("Find Area of Shapes Here....");
         while(option !=0) {
-            System.out.println();
+            System.out.println("select 1 to for rectangle" +
+                    ", 2 for Square" +
+                    ", 3 for Box" +
+                    ", 4 for Cube " +
+                    ", 5 for Ellipse  " +
+                    ", 6 for Circle " +
+                    ", 7 for Sphere " +
+                    ", 8 for Triangle" +
+                    ", 9 for Tetrahedron" +
+                    " and 0 to exit.");
             option=scanner.nextInt();
 
             switch (option) {
@@ -55,6 +64,8 @@ public class Main {
                     Shape tetrahedron = new Tetrahedron();
                     shapes.add(tetrahedron.toString());
                     break;
+                case 0:
+                    System.out.println("Thank you for your time.Come Back Again");
                 default:
                     System.out.println("Invalid Choice");
                     break;
