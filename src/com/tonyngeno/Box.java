@@ -30,11 +30,7 @@ public class Box extends Shape implements ShapePI {
 
     @Override
     public String toString() {
-        return "Shape type =" + "Box" +
-                " | Length =" + getHeight() +
-                " | Width =" + getHeight() +
-                " | Height =" + getHeight() +
-                " | Area =" + calculateArea();
+        return" Area =" + calculateArea();
 
     }
 }

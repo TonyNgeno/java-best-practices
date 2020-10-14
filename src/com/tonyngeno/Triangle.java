@@ -28,9 +28,6 @@ public class Triangle extends Shape implements ShapePI {
 
     @Override
     public String toString() {
-        return "Shape ="+"Triangle"+
-                " | height ="+getHeight()+
-                " | width ="+getWidth()+
-                " | Area ="+calculateArea();
+        return "Area ="+calculateArea();
     }
 }

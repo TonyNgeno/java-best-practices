@@ -26,8 +26,6 @@ public class Cube extends Shape implements ShapePI {
 
     @Override
     public String toString() {
-        return "Shape ="+"Cube"+
-                " | width ="+getWidth()+
-                " | Area ="+calculateArea();
+        return " Area =" + calculateArea();
     }
 }

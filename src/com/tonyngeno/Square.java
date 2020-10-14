@@ -27,8 +27,5 @@ public class Square extends Shape implements ShapePI {
 
     @Override
     public String toString() {
-        return "Shape ="+"Square"+
-                " | length ="+getHeight()+
-                " | Area ="+calculateArea();
-    }
+        return "Area ="+calculateArea();}
 }

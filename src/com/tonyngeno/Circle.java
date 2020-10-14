@@ -26,8 +26,6 @@ public class Circle extends Shape implements ShapePI {
 
     @Override
     public String toString() {
-        return "Shape ="+"Circle"+
-                " | radius ="+getWidth()+
-                " | Area ="+calculateArea();
+        return" Area =" + calculateArea();
     }
 }

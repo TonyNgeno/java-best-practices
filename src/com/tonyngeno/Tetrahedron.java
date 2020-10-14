@@ -28,8 +28,6 @@ public class Tetrahedron extends Shape implements ShapePI {
 
     @Override
     public String toString() {
-        return "Shape type =" + "Tetrahedon" +
-                " | Height =" + getHeight() +
-                " | Area =" + calculateArea() ;
+        return "Area ="+calculateArea();
     }
 }

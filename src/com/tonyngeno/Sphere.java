@@ -27,8 +27,6 @@ public class Sphere extends Shape implements ShapePI {
 
     @Override
     public String toString() {
-        return "Shape ="+"Sphere"+
-                " | radius ="+getHeight()+
-                " | Area ="+calculateArea();
+        return "Area ="+calculateArea();
     }
 }
