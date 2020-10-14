@@ -66,9 +66,7 @@ public class Main {
                     break;
                 case 0:
                     System.out.println("Thank you for your time.Come Back Again");
-                default:
-                    System.out.println("Invalid Choice");
-                    break;
+
 
             }
         }
