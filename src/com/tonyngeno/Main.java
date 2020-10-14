@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Find Area of Shapes Here....");
         while(option !=0) {
-            System.out.println("select 1 to for rectangle" +
+            System.out.println("select 1 for rectangle" +
                     ", 2 for Square" +
                     ", 3 for Box" +
                     ", 4 for Cube " +
