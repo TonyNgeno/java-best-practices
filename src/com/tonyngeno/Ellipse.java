@@ -29,6 +29,6 @@ public class Ellipse extends Shape implements ShapePI {
 
     @Override
     public String toString() {
-        return "Area =" + calculateArea();
+        return "Area of Ellipse =" + calculateArea();
     }
 }

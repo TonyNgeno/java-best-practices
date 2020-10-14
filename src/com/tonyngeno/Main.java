@@ -25,6 +25,7 @@ public class Main {
                     ", 8 for Triangle" +
                     ", 9 for Tetrahedron" +
                     " and 0 to exit.");
+
             option=scanner.nextInt();
 
             switch (option) {
