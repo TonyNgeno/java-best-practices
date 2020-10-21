@@ -4,7 +4,7 @@ import com.tonyngeno.Interface.ShapePI;
 
 import java.util.Scanner;
 
-public class Square extends Shape implements ShapePI {
+public class Square extends Rectangle {
     private Scanner scanner;
 
     public Square() {

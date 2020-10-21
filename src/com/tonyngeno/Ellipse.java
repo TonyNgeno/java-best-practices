@@ -4,7 +4,7 @@ import com.tonyngeno.Interface.ShapePI;
 
 import java.util.Scanner;
 
-public class Ellipse extends Shape implements ShapePI {
+public class Ellipse extends Circle {
 
     private Scanner scanner;
 
